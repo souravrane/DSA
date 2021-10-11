@@ -6,5 +6,5 @@ const oneOddOccuringDigit = function (arr, n) {
   return XOR;
 };
 
-arr = [1, 2, 3, 1, 2, 3, 4];
+const arr = [1, 2, 3, 1, 2, 3, 4];
 console.log(oneOddOccuringDigit(arr, arr.length));

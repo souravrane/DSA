@@ -19,5 +19,5 @@ const twoOddOccuringDigits = function (arr, n) {
   return [digit1, digit2];
 };
 
-arr = [1, 1, 1, 1, 2, 2, 3, 4, 5, 5];
+const arr = [1, 1, 1, 1, 2, 2, 3, 4, 5, 5];
 console.log(twoOddOccuringDigits(arr, arr.length));
