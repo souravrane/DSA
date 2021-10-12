@@ -1,3 +1,5 @@
+// https://practice.geeksforgeeks.org/problems/find-first-set-bit-1587115620/1
+
 const findFirstSetBit = function (num) {
   if (num === 0) return 0;
   let position = 1;

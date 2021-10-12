@@ -1,3 +1,5 @@
+// https://practice.geeksforgeeks.org/problems/rightmost-different-bit-1587115621/1
+
 const rightmostDiffBit = function (n, m) {
   if (m === n) return -1;
   let position = 0;
