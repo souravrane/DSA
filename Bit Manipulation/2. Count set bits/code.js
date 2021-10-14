@@ -8,14 +8,16 @@ const countSetBits = function (num) {
   return count;
 };
 
-// Time O(1)
-const memoizeSetBits = function () {
-  let hashTable = new Array(256);
-  hashTable[0] = 0;
-  for (let i = 0; i < 256; i++) {
-    table[i] = (n & 1) + table[Math.floor(i / 2)];
-  }
-};
+// Time O(1) - if the number is 32 bit
+// const memoizeSetBits = function () {
+//   let hashTable = new Array(256);
+//   hashTable[0] = 0;
+//   for (let i = 0; i < 256; i++) {
+//     table[i] = (n & 1) + table[Math.floor(i / 2)];
+//   }
+
+//   return function (num) {};
+// };
+
 const num = 7;
 console.log(countSetBits(num));
-console.log([] * 5);
