@@ -11,5 +11,5 @@ const equilibriumPoint = function (arr, n) {
   return false;
 };
 
-const arr = [3, 8, 2, -9, 4, 6];
+const arr = [4, 0, 0];
 console.log(equilibriumPoint(arr, arr.length));
